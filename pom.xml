@@ -17,6 +17,7 @@
   <modules>
     <module>splunk</module>
     <module>splunk-sdk</module>
+    <module>splunk-external</module>
   </modules>
 
 </project>
