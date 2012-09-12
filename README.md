@@ -1,5 +1,16 @@
 # The Splunk Software Development Kit for Java
-### Version 0.8.0 (Beta Release)
+### Version 0.8.1 (Fork Beta Release)
+
+## Fork Notes
+
+This fork is provided to get enough maven working to build the basic library so
+that it can be integrated into our local maven repository.
+
+The conversion to maven is not complete, and their are still artifacts remaining
+in the repository that are useless.
+
+
+##
 
 This SDK contains library code and examples designed to enable developers to
 build applications using Splunk.
