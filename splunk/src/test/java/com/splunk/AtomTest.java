@@ -17,24 +17,19 @@
 package com.splunk;
 
 import org.junit.Test;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
 public class AtomTest extends SplunkTestCase {
-    // UNDONE: Test files should be loaded from a resource and not via
-    // relative path.
+
     private static 
     InputStream openFile(String filename) throws FileNotFoundException {
-        File file = new File(
-            "tests" + File.separator + "com" + File.separator +
-            "splunk" + File.separator + filename);
-        return new FileInputStream(file);
+        InputStream inputStream = AtomTest.class.getResourceAsStream(filename);
+        return inputStream;
     }
 
     @Test public void test() throws FileNotFoundException {
-        String tests[] = { "jobs.xml" };
+        String tests[] = { "/com/splunk/jobs.xml" };
 
         for (String test : tests) {
             InputStream stream = openFile(test);
