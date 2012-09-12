@@ -10,7 +10,7 @@ The conversion to maven is not complete, and their are still artifacts remaining
 in the repository that are useless.
 
 
-##
+## Splunk Stuff
 
 This SDK contains library code and examples designed to enable developers to
 build applications using Splunk.
