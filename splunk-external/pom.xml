@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.splunk</groupId>
         <artifactId>splunk-project</artifactId>
-        <version>0.8.1</version>
+        <version>0.8.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>splunk-external</artifactId>
